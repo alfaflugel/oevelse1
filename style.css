@@ -1,0 +1,46 @@
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body {
+  background-color: aliceblue;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
+}
+article {
+  border: solid;
+}
+h1 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+h3 {
+  padding-left: 1rem;
+}
+header {
+  border-bottom: solid;
+  border-top: solid;
+  border-width: 1.5px;
+  border-color: rgb(60, 56, 56);
+}
+footer {
+  margin-top: 5%;
+  border-bottom: solid;
+  border-top: solid;
+  border-width: 1.5px;
+  border-color: rgb(60, 56, 56);
+}
+p {
+  padding: 1rem;
+}
